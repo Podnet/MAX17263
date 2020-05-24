@@ -1,7 +1,7 @@
-name: mgos_empty_lib
-author: Apoorva Singh <apoorvasingh@thepodnet.com>
+name: MAX17263
+author: Hrithik Yadav <hrithik.yadav@thepodnet.com>
 type: lib
-description: An empty lib that does nothing
+description: MAX17263 arduino library port to Mongoose OS
 version: 0.1
 
 
@@ -16,9 +16,9 @@ filesystem:
 
 config_schema:
 libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
 
 tags:
   - c
-  - docs:misc:Empty
 
 manifest_version: 2017-09-29
