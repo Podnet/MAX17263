@@ -1,8 +1,7 @@
-
 #ifndef Arduino-MAX17263_Driver.h_h
 #define Arduino-MAX17263_Driver.h_h
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 struct history_t
 { uint16_t RCOMP0; 
