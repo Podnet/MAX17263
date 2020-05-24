@@ -1,0 +1,24 @@
+name: mgos_empty_lib
+author: Apoorva Singh <apoorvasingh@thepodnet.com>
+type: lib
+description: An empty lib that does nothing
+version: 0.1
+
+
+sources:
+  - src
+
+includes:
+  - include
+
+filesystem:
+  - fs
+
+config_schema:
+libs:
+
+tags:
+  - c
+  - docs:misc:Empty
+
+manifest_version: 2017-09-29
